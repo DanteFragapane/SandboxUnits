@@ -1,6 +1,9 @@
+require "defines"
+require "util"
 
-
-
+game.oninit(function()
+glob.SandboxUnit = 0
+end)
 
 function showItemSearch(key)
   glob.active_search = key
